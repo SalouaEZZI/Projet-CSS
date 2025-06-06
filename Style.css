@@ -1,0 +1,120 @@
+li{
+    background-color: rgba(204, 52, 238, 0.3);
+  list-style: none;        /* Enlève les puces */
+
+}
+
+
+}
+body {
+    font-family: 'Roboto', roboto;
+     }
+h2 {
+    color: rgb(68, 68, 66);
+    font-family: roboto;
+    text-align: center;
+}
+    
+/*style général de la barre */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* logo à gauche, liens à droite */
+  background-color: rgba(230, 198, 21, 0.3); /* couleur foncée élégante */
+  padding: 3px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 2px 5px rgba(148, 9, 186, 0.3);
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px; /* espace entre les liens */
+  margin: 30;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: rgba(148, 9, 186, 0.3);
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: rgba(148, 9, 186, 0.3); /* violet clair au survol */
+  border-bottom: 2px solid rgba(148, 9, 186, 0.3);
+  padding-bottom: 3px;
+}
+
+.image-centree {
+  display: block;            /* pour pouvoir centrer l’image */
+  margin: 0 auto;            /* centre horizontalement */
+  border: 4px solid #f9f506; /* bordure violette de 4px */
+  border-radius: 10px;       /* coins arrondis (optionnel) */
+  padding: 5px;              /* espace entre image et bordure */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* légère ombre pour relief */
+}
+
+
+.encadre {
+    border: 2px solid #41043a;  /* bordure de 2px */
+    background-color: #f5f36c;
+    padding: 10px;               /*espace entre le texte et la bordure */
+    width: 1215px;              
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;       /*pour que la brochure s'adapte au texte */
+}
+
+.slogan-container {
+    text-align: center;      /* centre le texte */
+    margin-top: 20px;
+}
+.slogan {
+    font-style: italic;
+    font-size: 1,5em;
+    color:#ee4dde;
+    border-bottom: 1px solid #e441d4;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+    
+h2 {
+    text-shadow: #044108;
+    margin-bottom: 25px;
+}
+.menu-section {
+  background-color: #f4f0fa; /* couleur douce violet pastel */
+  padding: 15px 30px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(30, 209, 14, 0.1);
+}
+
+.menu-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.menu-section li a {
+  text-decoration: none;
+  color: #a28005;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.menu-section li a:hover {
+  color: #f3e8fc;
+}
